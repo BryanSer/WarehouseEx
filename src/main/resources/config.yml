@@ -1,0 +1,12 @@
+#数据库配置
+SQL:
+    IP: '127.0.0.1'
+    Port: 3306
+    Database: 'mc'
+    User: 'root'
+    Password: 123456
+Setting:
+    #每个人最大的仓库数量
+    #注意 修订本设定后 价格文件会重写进行设定
+    #设定价格请前往price.yml
+    MaxWarehouse: 30

@@ -1,0 +1,12 @@
+name: WarehouseEx
+author: Bryan_lzh
+main: com.github.bryanser.warehouse.ex.Main
+description: '开发者QQ:390807154'
+depend: [BrAPI,InventoryCore,PlayerPoints]
+version: ${project.version}
+
+commands:
+    WarehouseEx:
+        aliases: [ware,w,ck]
+        description: 主命令
+        usage: /<command>
